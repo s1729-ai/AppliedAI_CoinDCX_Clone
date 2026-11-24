@@ -1,0 +1,308 @@
+{
+  "users": [
+    {
+      "_id": "pbv8u88mwulnglr",
+      "name": "Verification Bot",
+      "email": "test_1795518996531@coindcx.edu",
+      "password": "$2a$10$ZaDidzWwVKCWnQd9Rnoy/OZt5Kr/OYSG1IBbZpRXjg6IQ3pNJOWmW",
+      "role": "user",
+      "isKycVerified": true,
+      "demoNoticeAcknowledged": true,
+      "createdAt": "2026-11-24T11:16:36.687Z",
+      "updatedAt": "2026-11-24T11:16:36.687Z"
+    },
+    {
+      "_id": "jmf77d2mwulngoh",
+      "name": "Demo Trader",
+      "email": "demo@coindcx.edu",
+      "password": "$2a$10$6keg5lgOBVkUDXH.2bbszuHfS5B3gYtjIMLMwKzBkkIPx3.u1Pnre",
+      "role": "user",
+      "isKycVerified": true,
+      "demoNoticeAcknowledged": true,
+      "createdAt": "2026-11-24T11:16:36.785Z",
+      "updatedAt": "2026-11-24T11:16:36.785Z"
+    }
+  ],
+  "wallets": [
+    {
+      "_id": "1k76lzxmwulngls",
+      "userId": "pbv8u88mwulnglr",
+      "inrBalance": 979849.0846350928,
+      "coinBalances": [
+        {
+          "coin": "BTC",
+          "free": 0.00599,
+          "locked": 0,
+          "avgBuyPrice": 8347753.11
+        }
+      ],
+      "totalDeposited": 1050000,
+      "totalWithdrawn": 20000,
+      "createdAt": "2026-11-24T11:16:36.688Z",
+      "updatedAt": "2026-11-24T11:16:36.880Z"
+    },
+    {
+      "_id": "go3bvwumwulngoi",
+      "userId": "jmf77d2mwulngoh",
+      "inrBalance": 1000000,
+      "coinBalances": [],
+      "totalDeposited": 1000000,
+      "totalWithdrawn": 0,
+      "createdAt": "2026-11-24T11:16:36.786Z",
+      "updatedAt": "2026-11-24T11:16:36.786Z"
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "nzpwgzemwulngr5",
+      "userId": "pbv8u88mwulnglr",
+      "type": "WITHDRAW",
+      "amount": 20000,
+      "currency": "INR",
+      "fee": 0,
+      "status": "COMPLETED",
+      "txHash": "TXN-B5S4D5ZZ",
+      "metadata": {
+        "bank": "Simulated Bank Account",
+        "account": "XXXX1234"
+      },
+      "createdAt": "2026-11-24T11:16:36.881Z"
+    },
+    {
+      "_id": "5xi2932mwulngqv",
+      "userId": "pbv8u88mwulnglr",
+      "type": "DEPOSIT",
+      "amount": 50000,
+      "currency": "INR",
+      "fee": 0,
+      "status": "COMPLETED",
+      "txHash": "TXN-O6K5VT0Y",
+      "metadata": {
+        "method": "Instant Demo Virtual Deposit"
+      },
+      "createdAt": "2026-11-24T11:16:36.871Z"
+    },
+    {
+      "_id": "taau2ngmwulngql",
+      "userId": "pbv8u88mwulnglr",
+      "type": "FUTURES_PNL",
+      "amount": 0,
+      "currency": "INR",
+      "fee": 0,
+      "status": "COMPLETED",
+      "txHash": "TXN-QWXTLK2S",
+      "metadata": {
+        "pair": "BTCUSDT",
+        "side": "LONG",
+        "realizedPnlUsdt": 0,
+        "realizedPnlInr": 0,
+        "closePrice": 96795.5
+      },
+      "createdAt": "2026-11-24T11:16:36.861Z"
+    },
+    {
+      "_id": "inagulkmwulngq5",
+      "userId": "pbv8u88mwulnglr",
+      "type": "FUTURES_MARGIN",
+      "amount": 41864.05375000001,
+      "currency": "INR",
+      "fee": 0,
+      "status": "COMPLETED",
+      "txHash": "TXN-8ZXESY7O",
+      "metadata": {
+        "pair": "BTCUSDT",
+        "side": "LONG",
+        "leverage": 10,
+        "positionId": "6tk89vpmwulngq4"
+      },
+      "createdAt": "2026-11-24T11:16:36.845Z"
+    },
+    {
+      "_id": "gy2h8x8mwulngpn",
+      "userId": "pbv8u88mwulnglr",
+      "type": "SPOT_SELL",
+      "amount": 49948.86838509265,
+      "currency": "INR",
+      "fee": 49.998867252345,
+      "status": "COMPLETED",
+      "txHash": "TXN-5LUS7SRP",
+      "metadata": {
+        "pair": "BTC/INR",
+        "coinSold": 0.0059895,
+        "price": 8347753.11
+      },
+      "createdAt": "2026-11-24T11:16:36.827Z"
+    },
+    {
+      "_id": "cdf8mdhmwulngot",
+      "userId": "pbv8u88mwulnglr",
+      "type": "SPOT_BUY",
+      "amount": 100000,
+      "currency": "INR",
+      "fee": 100,
+      "status": "COMPLETED",
+      "txHash": "TXN-MUF5WLL6",
+      "metadata": {
+        "pair": "BTC/INR",
+        "coinBought": 0.011979,
+        "price": 8347753.11
+      },
+      "createdAt": "2026-11-24T11:16:36.797Z"
+    },
+    {
+      "_id": "aovpbuqmwulngoj",
+      "userId": "jmf77d2mwulngoh",
+      "type": "DEPOSIT",
+      "amount": 1000000,
+      "currency": "INR",
+      "fee": 0,
+      "status": "COMPLETED",
+      "txHash": "TXN-F5PX5OPD",
+      "metadata": {
+        "note": "Initial Demo Virtual Fund Allocation"
+      },
+      "createdAt": "2026-11-24T11:16:36.787Z"
+    },
+    {
+      "_id": "hvegmmomwulnglu",
+      "userId": "pbv8u88mwulnglr",
+      "type": "DEPOSIT",
+      "amount": 1000000,
+      "currency": "INR",
+      "fee": 0,
+      "status": "COMPLETED",
+      "txHash": "TXN-XFCKW1NR",
+      "metadata": {
+        "note": "Initial Demo Virtual Fund Allocation"
+      },
+      "createdAt": "2026-11-24T11:16:36.690Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "kwur7b2mwulngpn",
+      "userId": "pbv8u88mwulnglr",
+      "pair": "BTC/INR",
+      "side": "SELL",
+      "type": "MARKET",
+      "price": 8347753.11,
+      "quantity": 0.0059895,
+      "totalInr": 49998.867252345,
+      "executedQuantity": 0.0059895,
+      "fee": 49.998867252345,
+      "status": "FILLED",
+      "createdAt": "2026-11-24T11:16:36.827Z"
+    },
+    {
+      "_id": "aljy8vrmwulngot",
+      "userId": "pbv8u88mwulnglr",
+      "pair": "BTC/INR",
+      "side": "BUY",
+      "type": "MARKET",
+      "price": 8347753.11,
+      "quantity": 0.011979,
+      "totalInr": 100000,
+      "executedQuantity": 0.011979,
+      "fee": 100,
+      "status": "FILLED",
+      "createdAt": "2026-11-24T11:16:36.797Z"
+    }
+  ],
+  "futuresPositions": [
+    {
+      "_id": "6tk89vpmwulngq4",
+      "userId": "pbv8u88mwulnglr",
+      "pair": "BTCUSDT",
+      "side": "LONG",
+      "entryPrice": 96795.5,
+      "currentPrice": 96795.5,
+      "quantity": 0.05,
+      "leverage": 10,
+      "margin": 483.98,
+      "marginType": "ISOLATED",
+      "liquidationPrice": 87599.93,
+      "unrealizedPnl": 0,
+      "realizedPnl": 0,
+      "status": "CLOSED",
+      "createdAt": "2026-11-24T11:16:36.844Z",
+      "closedPrice": 96795.5,
+      "closedAt": "2026-11-24T11:16:36.860Z"
+    }
+  ],
+  "watchlists": [],
+  "notifications": [
+    {
+      "_id": "cyq2rpamwulngr6",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Demo Withdrawal Processed",
+      "message": "Simulated withdrawal of ₹20,000 completed.",
+      "type": "INFO",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.882Z"
+    },
+    {
+      "_id": "qx0dog9mwulngqx",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Virtual Demo Deposit Successful",
+      "message": "₹50,000 added to your demo wallet!",
+      "type": "SUCCESS",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.873Z"
+    },
+    {
+      "_id": "b8nfwyrmwulngqm",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Closed LONG Position: BTCUSDT",
+      "message": "Closed at $96,795.5 | Realized P&L: +$0.00 (+₹0.00)",
+      "type": "SUCCESS",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.862Z"
+    },
+    {
+      "_id": "79abfqfmwulngq6",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Opened 10x LONG Position on BTCUSDT",
+      "message": "Entry: $96,795.5 | Margin: $483.98 (₹41864.05) | Liq: $87,599.93",
+      "type": "TRADE",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.846Z"
+    },
+    {
+      "_id": "p4ul132mwulngpo",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Spot Sell Executed: BTC",
+      "message": "Sold 0.0059895 BTC for ₹49,948.868 (Fee: ₹50.00)",
+      "type": "TRADE",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.828Z"
+    },
+    {
+      "_id": "lrua900mwulngpe",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Spot Buy Executed: BTC",
+      "message": "Purchased 0.011979 BTC at ₹83,47,753.11 (Fee: ₹100.00)",
+      "type": "TRADE",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.818Z"
+    },
+    {
+      "_id": "ptqoxx9mwulngok",
+      "userId": "jmf77d2mwulngoh",
+      "title": "Welcome Demo Trader!",
+      "message": "Your virtual wallet has ₹10,00,000 for simulated spot and futures trading.",
+      "type": "SUCCESS",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.788Z"
+    },
+    {
+      "_id": "fmv8cvfmwulnglw",
+      "userId": "pbv8u88mwulnglr",
+      "title": "Welcome to CoinDCX Demo!",
+      "message": "Your virtual demo account has been credited with ₹10,00,000 virtual INR. Start exploring Spot & Futures trading risk-free.",
+      "type": "SUCCESS",
+      "isRead": false,
+      "createdAt": "2026-11-24T11:16:36.692Z"
+    }
+  ],
+  "priceAlerts": []
+}
